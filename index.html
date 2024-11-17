@@ -1,37 +1,89 @@
 <!DOCTYPE html>
 <html lang="en"></html>
 <section id="about">
-    
 </section>
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>My Coding Portfolio</title>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
-        h1 {
-            font-size: 3em;
-        }
-    </style>
 </head>
+
 <body>
-    <header style="height: 40px;">
-        <nav>
-            <ul><li><a href="#about">About</a></li><li>
-                    <a href="#projects">Projects</a></li><li>
-                    <a href="#contact">Contact</a></li></ul>
-            </ul>
-        </nav>
-    </header>
-    <h1>Fernando's Portfolio</h1>
+     
+    <div class="container">
+     <video src="assets/night-sky.3840x2160.mp4" autoplay loop muted class="back-video"></video>
+        <img src="assets/photo.jpg" alt="photo.jpg"style="width: 300px;>
+        <div class="center">
+            <div class="center">
+
+            <h1>Fernando's Portfolio</h1>
+            </div>
+            <div class="center">
+                <h2><sapan class="auto-type"></sapan></h2>
+            </div>
+           
+        </div>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+        <script>
+            var typed = new Typed('.auto-type', {
+                strings: ["Machine Lerning Engineer", "Softwar Engineer"],
+                typeSpeed: 150,
+                backSpeed: 150,
+                loop: true
+            });
+        </script>
+    
+        <div class="about_me">
+            <video src="assets/night-sky.3840x2160.mp4" autoplay loop muted class="back-video"></video>
+            <h1>About Me</h1>
+                <p>Hello there! I'm Fernando, I hope you're having a fun time looking over my Portfolio. I was born in Brazil and lived here for most of my life where I was able to learn and live with amazing people.
+            During my teenage years I was able to move to Canada for a short time where I was able to learn a different culture and get in love with technology and programming.
+            I am not perfect and will never be. but I am always looking for ways to improve myself and help others.
+            </p>
+
+        </div>
+        <div class="container_projects">
+            <div class="project">
+                <h1>Projects</h1>
+                <a href="https://github.com/Fernando7181/Youtube-to-mp3">
+                <img src="assets/youtubetomp3.png" alt=>
+                  </a>
+            <h3>Youtube to Mp3</h3>
+            <p>The project was intended for everyone to use it and not need an external or app or google website.</p>
+        </div>
+        <div class="project">
+            <a href="https://github.com/Fernando7181/Trabalho_html-">
+            <img src="assets/1693836459764.jpeg" alt="">
+                </a>
+            <h3>Anime Website</h3>
+            <p>Worked with University Friends creating an anime website with forums and other features as creating profile with PHP, HTML, CSS and JavaScript</p>
+        </div>
+        <div class="project">
+            <img src="assets/python_exercise.png" alt="Project 3" >
+            <h3>Python Exercises</h3>
+            <p>This Project is University related where I could develop resolutions for different real life problems and help people with it </p>
+        </div>
+    
+        <div class="contact">
+         <h1>Contact</h1>
+            <p>Feel free to contact me at any time. I will be happy to help you with any questions or projects you have in mind. Fernandkbarbosa@gmail.com</p>
+         <div class="media">
+            <a href="https://www.linkedin.com/in/fernando-barbosa-rodrigues-8803a5245/">
+                <img src="assets/174857.png" alt="Linkedin"  
+                width="50"  height="50" /> 
+            </a>
+            <a href="https://www.instagram.com/fe4n4ndo/">
+                <img src="assets/Instagram_icon.png" alt="Linkedin"  
+                width="50"  height="50" /> 
+            </a>
+            <a href="https://x.com/Fe4n4ndo">
+                <img src="assets/1691832581twitter-x-icon-png.png" alt="Linkedin"  
+                width="50"  height="50" /> 
+            </a>
+        </div>
+    </div>
 </body>
 </html>
